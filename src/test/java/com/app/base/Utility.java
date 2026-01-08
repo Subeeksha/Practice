@@ -73,4 +73,10 @@ public class Utility {
 	public String getText1(By locator) {
 		return getElement(locator).getText();
 	}
+	// **** 7. Send Keys ****
+	public void type1(WebElement locator, String text) {
+		
+		locator.clear();
+		locator.sendKeys(text);
+	}
 }
