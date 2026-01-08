@@ -29,6 +29,8 @@ import org.openqa.selenium.support.ui.Select;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
+	
+	//Test Changes
 	public static WebDriver driver = null;
 	public static  JavascriptExecutor js;
 	public static Actions actions;

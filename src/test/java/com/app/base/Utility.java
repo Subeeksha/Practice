@@ -70,4 +70,7 @@ public class Utility {
 	public String getText(By locator) {
 		return getElement(locator).getText();
 	}
+	public String getText1(By locator) {
+		return getElement(locator).getText();
+	}
 }
